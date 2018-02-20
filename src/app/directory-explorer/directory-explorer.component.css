@@ -1,4 +1,24 @@
 :host {
   display: block;
   width: 100%;
+  background-color: lightblue;
 }
+
+.title {
+  background-color: blue;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.1em 0.25em;
+}
+
+

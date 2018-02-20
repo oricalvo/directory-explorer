@@ -5,14 +5,14 @@ export interface AppState {
 
 export interface File {
   name: string;
-  path: string;
+  path?: string;
 }
 
 export type Item = File | Directory;
 
 export interface Directory {
   name: string;
-  path: string;
+  path?: string;
   items: Item[];
 }
 
